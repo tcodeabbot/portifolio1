@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abbot Tubeine | Portifolio Website</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon" />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="../styles/styles.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              id="profile-picture"
+              src="../images/profile_picture.jpg"
+              alt="Abbot Tubeine"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Abbot Tubeine">Abbot Tubeine</h1>
+
+            <p class="title">Software Engineer|Cyber Security Researcher</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:abbot.tubeine23@sattler.edu"
+                  class="contact-link"
+                  >abbot.tubeine23@sattler.edu</a
+                >
+              </div>
+              <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+  
+                <div class="contact-info">
+                  <p class="contact-title">GitHub Profile</p>
+  
+                  <address><a id="github" href="https://github.com/tcodeabbot" >GitHub</a></address>
+                  
+                </div>
+              </li>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+1-(857)-961-7438" class="contact-link"
+                  >+1 (857)-961-7438</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Date of Birth</p>
+
+                <time datetime="2002-08-01">August 01, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Boston, MA, USA</address>
+              </div>
+            </li>
+
+          </ul>
+
+
+          
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a student in Boston, pursuing a double major in computer
+              science and cybersecurity. My passion for technology has driven me
+              to embark on a self-taught journey in software engineering, taking
+              me from zero to where I am today. Along the way, I've worked on a
+              variety of projects, spanning from front-end to full-stack
+              development. Exposure to both computer science and cybersecurity
+              practices has fueled my desire to continuously acquire new skills.
+              I've enrolled in courses covering topics like Practical Ethical
+              Hacking, Open-Source Intelligence, Windows and Linux Privilege
+              Escalation, and External Penetration Testing.
+            </p>
+
+            <p>
+              While having such a diverse skill set has presented me with the
+              challenge of choosing a specialization. However, my approach to
+              the digital world is to learn as many skills as possible, one step
+              at a time. All the coding projects in my portfolio are
+              meticulously crafted from initial planning and design to
+              problem-solving, reflecting my commitment to hands-on learning and
+              development.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What I do</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="../images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Front End Development</h4>
+
+                  <p class="service-item-text">
+                    Crafting modern UIs using industy standards.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="../images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Backend Development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="../images/platform-svgrepo-com.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Web Application Penetration Testing
+                  </h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="../images/network-wireless-signal-ok-svgrepo-com.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Network Penetration Testing
+                  </h4>
+
+                  <p class="service-item-text">
+                    Assessing network infrastructure and weaknesses in active
+                    directory environments.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="../images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">API Penetration Testing</h4>
+
+                  <p class="service-item-text">
+                    Ensuring the security of APIs and data exchange.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="../images/overlapped-layers-svgrepo-com.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Bug Bounty Hunting</h4>
+
+                  <p class="service-item-text">
+                    Actively participating in bug bounty programs.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+        
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <div class="institution flex">
+                  <h4 class="h4 timeline-item-title">Sattler College</h4>
+                  <h4 class="h4 timeline-item-title">
+                    Bachelor of Science in Computer Science
+                  </h4>
+                </div>
+
+                <div class="flex">
+                  <span>Bostson, Massachusetts</span>
+                  <span>Class of 2027</span>
+                </div>
+
+                <p class="timeline-text">
+                  Awards: President's list, William Carey Scholarship Recepient
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div class="institution flex">
+                  <h4 class="h4 timeline-item-title">
+                    Indiana Wesleyan University
+                  </h4>
+                  <h4 class="h4 timeline-item-title">
+                    Bachelor of Science in Cyber Security
+                  </h4>
+                </div>
+                <div class="flex">
+                  <span>Marion, Indiana</span>
+                  <span>Class of 2026</span>
+                </div>
+
+                <p class="timeline-text">Awards: President's List.</p>
+              </li>
+
+              <li class="timeline-item">
+                <div class="institution flex">
+                  <h4 class="h4 timeline-item-title">
+                    Imperial Secondary School
+                  </h4>
+                  <h4 class="h4 timeline-item-title">
+                    Advanced Certificate of Education
+                  </h4>
+                </div>
+                <div class="flex">
+                  <span>Uganda</span>
+                  <span>Class of 2022</span>
+                </div>
+
+                <p class="timeline-text">
+                  Awards: Academics Achiever's Scholarship, National Merit
+                  Scholarship Recepient.
+                </p>
+              </li>
+              <li class="timeline-item">
+                <div class="institution flex">
+                  <h4 class="h4 timeline-item-title">
+                    Holy Cross Secondary School
+                  </h4>
+                  <h4 class="h4 timeline-item-title">High School Diploma</h4>
+                </div>
+                <div class="flex">
+                  <span>Uganda</span>
+                  <span>Class of 2019</span>
+                </div>
+
+                <p class="timeline-text"></p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Abiex Security</h4>
+
+                <span>Founder</span>
+
+                <p class="timeline-text">
+                  &#8226; Founded and established Abiex Security, a start-up
+                  cyber security consulting company.
+                </p>
+                <p class="timeline-text">
+                  &#8226; Focused on delivering comprehensive security
+                  assessments, including:
+                </p>
+                <p class="timeline-text">
+                  &#8226;
+                  <strong>Web Application Penetration Testing:</strong>
+                  Identifying vulnerabilities in web applications and APIs.
+                </p>
+                <p class="timeline-text">
+                  &#8226;
+                  <strong>Network Penetration Testing:</strong> Assessing
+                  network infrastructure and weaknesses in active directory
+                  environments.
+                </p>
+                <p class="timeline-text">
+                  &#8226; <strong>API Penetration Testing:</strong> Ensuring the
+                  security of APIs and data exchange.
+                </p>
+                <p class="timeline-text">
+                  &#8226; <strong>Bug Bounty Hunting: </strong> Actively
+                  participating in bug bounty programs.
+                </p>
+                <p class="timeline-text">
+                  &#8226; <strong>OSINT Research: </strong> Leveraging
+                  open-source intelligence for threat analysis and data
+                  breaches.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div class="flex">
+                  <h4 class="h4 timeline-item-title">Web Developer</h4>
+                  <h4 class="h4 timeline-item-title">Sattler College</h4>
+                </div>
+
+                <span>2023 - Present</span>
+
+                <p class="timeline-text">
+                  In my role as a Web Developer at Sattler College within a
+                  work-study position, I am entrusted with the responsibility of
+                  updating and creating content for the school's website.
+                  Proficient in WordPress and Elementor, I bring a blend of
+                  technical expertise and creativity to enhance the digital
+                  presence of the institution. Whether implementing innovative
+                  design solutions, streamlining user interfaces, or ensuring
+                  optimal content accessibility, I am dedicated to maintaining a
+                  visually compelling and seamlessly functional online
+                  experience for users. This work-study opportunity has not only
+                  allowed me to refine my technical skills but has also deepened
+                  my understanding of the crucial intersection between
+                  technology and effective communication as I actively
+                  contribute to shaping the digital narrative of Sattler
+                  College.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <div class="flex">
+                  <h4 class="h4 timeline-item-title">
+                    Digital Content Developer
+                  </h4>
+                  <h4 class="h4 timeline-item-title">Sattler College</h4>
+                </div>
+
+                <span>2023 - Present</span>
+
+                <p class="timeline-text">
+                  As a Digital Content Developer at Sattler College, I
+                  collaborate with the marketing team to craft captivating
+                  content for the school's social media platforms. Leveraging my
+                  skills in Adobe Express, Photoshop, Davinci Resolve, and
+                  Buffer, I actively contribute to the creation of visually
+                  compelling and strategically impactful digital content. This
+                  role allows me to merge creativity with technical proficiency,
+                  ensuring that our social media presence aligns with the
+                  institution's brand and mission. Through dynamic content
+                  creation and strategic collaboration, I play a key role in
+                  enhancing Sattler College's online engagement, fostering a
+                  vibrant digital community that resonates with our diverse
+                  audience.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Frontend Development</h5>
+                  <data value="75"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Backend Development</h5>
+                  <data value="75"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Application Penetration Testing</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Network Penetration Testing</h5>
+                  <data value="80"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">API Penetration Testing</h5>
+                  <data value="75"></data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Full-Stack</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>React Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/worldwise.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">World Wise Application</h3>
+
+                  <p class="project-category">React Application</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="React Applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/amazon.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">My Amazon</h3>
+
+                  <p class="project-category">HTML5 | CSS | JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/youtube.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">My Youtube</h3>
+
+                  <p class="project-category">HTML5 | CSS | JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/imagesearch.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Image Search Application</h3>
+
+                  <p class="project-category">
+                    HTML5 | CSS | Fetching Data From JavaScript APIs
+                  </p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/bankist.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Bankist Web Application</h3>
+
+                  <p class="project-category">HTML5 | CSS | JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/dualdice.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Dual Dice Game</h3>
+
+                  <p class="project-category">HTML5 | CSS | JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/guess.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Guess A Number</h3>
+
+                  <p class="project-category">HTML5 | CSS | JavaScript</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="../images/reactquiz.png"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">React Quiz Application</h3>
+
+                  <p class="project-category">React Quiz</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5896.944239005962!2d-71.077517!3d42.3537767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a0a4f67cbcf%3A0xeb783068f7b5ccd5!2s219%20Beacon%20St%2C%20Boston%2C%20MA%2002116!5e0!3m2!1sen!2sus!4v1711169624587!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+    <script src="../scripts/index.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
